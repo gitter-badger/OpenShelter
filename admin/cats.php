@@ -3,7 +3,7 @@ include_once("../conf.php");
 ?>
 <center>
 <table width="800">
-<h1>Cats for adoption - <a href="../admin">go back</a></h1>
+<h1>Cats for adoption - <a href="./">go back</a></h1>
 <?php $catcounter = 0;
 // Display Cats
 $sql = "SELECT * FROM cats WHERE id!='0' ORDER BY RAND()";
