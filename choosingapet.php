@@ -1,4 +1,4 @@
-<?php include_once("header.php"); ?>
+<?php include("include/header.php"); ?>
 
 <h1>Choosing a pet</h1>
 
@@ -42,5 +42,5 @@ Find out about local obedience classes </p>
 All animals are different and have different dietary needs. A good diet might not be the cheapest one but will give you a healthy pet.
 Ask your vet about the best diet for your pet</P>
 
-<?php include_once("footer.php"); ?>
+<?php include("include/footer.php"); ?>
 	

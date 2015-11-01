@@ -1,4 +1,4 @@
-<?php include_once("header.php"); ?>
+<?php include("include/header.php"); ?>
 
 <h1>About Us</h1>
 <p>The Hahndorf Interim Animal Shelter Inc. unofficially opened it's doors in 1992 to care for abandoned dogs. In 1997 the Shelter was officially incorporated as a charity, and not for profit entity caring for cats and dogs. It's founders are Sue Whelan and Dorothy Caddle who hope to re-home all pets that come through the Shelter. Some animals find homes quickly, others take longer because of needing rehabilitation, like trust, love and confidence. No animal is put down simply because it was unwanted. We would emphasize that this is an EMERGENCY Shelter for abandoned pets; we are not prepared to take pets simply because their owners don't want them anymore. We advise owners to advertise their pets.</p>
@@ -7,4 +7,4 @@
 <p>The Shelter is the Pound for the District Council of Mt Barker. Many dogs are unclaimed, probably because the dog is untrained, has not been part of a family or has simply become a nuisance. These dogs often need reassurance, love and to learn respect and manners!! Often their coats are so matted and dirty that it is hard to recognize the breed. After a bath and clip, a new character emerges, free for knotty hair and far happier.</p>
 <p>Our Newsletter is full of heart-warming stories from people who have true commitment to the pets they have adopted from us.</P>
 
-<?php include_once("footer.php"); ?>
+<?php include("include/footer.php"); ?>

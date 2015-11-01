@@ -1,6 +1,6 @@
 <?php
 include("conf.php");
-include("header.php");
+include("include/header.php");
 ?>
 <h1>News</h1>
 <b>Vale Sue Whelan, co-founder of the Shelter</b><br>
@@ -32,7 +32,7 @@ echo '<table><tr>';
 	  echo '</h1></center></td>';
 	}
 echo "</tr></table>";
-include("footer.php");
+include("include/footer.php");
 ?>
 
 	

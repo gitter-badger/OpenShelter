@@ -1,4 +1,4 @@
-<?php include_once("header.php"); ?>
+<?php include("include/header.php"); ?>
 
 <h1>Volunteers</h1>
 <p><b>You need to be over 16 years old to volunteer.</b></p>
@@ -13,5 +13,5 @@
 <li>To wash and groom dogs.<br><br>
 <li>To groom cats.
 
-<?php include_once("footer.php"); ?>
+<?php include("include/footer.php"); ?>
 	
