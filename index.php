@@ -15,7 +15,7 @@ $sql = "SELECT * FROM cats WHERE photo!='' ORDER BY RAND() LIMIT 3";
 $query = mysqli_query($db, $sql);
 echo '<table><tr>';
 	while($row = mysqli_fetch_array($query)) {
-	  echo '<td><center><a href="cats.php"><img width="200" src="' .$row['photo']. '"></a><h1>';
+	  echo '<td><center><a href="view.php?t=cats"><img width="200" src="' .$row['photo']. '"></a><h1>';
 	  echo $row['name'];
 	  echo '</h1></center></td>';
 	}
@@ -27,7 +27,7 @@ $sql = "SELECT * FROM dogs WHERE photo!='' ORDER BY RAND() LIMIT 3";
 $query = mysqli_query($db, $sql);
 echo '<table><tr>';
 	while($row = mysqli_fetch_array($query)) {
-	  echo '<td><center><a href="dogs.php"><img width="200" src="' .$row['photo']. '"></a><h1>';
+	  echo '<td><center><a href="view.php?t=dogs"><img width="200" src="' .$row['photo']. '"></a><h1>';
 	  echo $row['name'];
 	  echo '</h1></center></td>';
 	}
