@@ -1,6 +1,4 @@
-<?php
-include("conf.php");
-include("include/header.php");
+<?php include("conf.php"); include("include/header.php");
 $sql = "SELECT * FROM pages WHERE pagename='news' LIMIT 1";
 $query = mysqli_query($db, $sql);
 while($row = mysqli_fetch_array($query)) {
@@ -25,5 +23,4 @@ echo '<h1>Dogs for adoption</h1><table><tr>';
 	  echo '</h1></center></td>';
 	}
 echo "</tr></table>";
-include("include/footer.php");
-?>
+include("include/footer.php"); ?>

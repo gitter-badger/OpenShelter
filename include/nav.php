@@ -4,4 +4,4 @@
 <a href="view.php?t=cats">Cats</a>  | 
 <a href="view.php?t=dogs">Dogs</a>  | 
 <a href="page.php?p=patshelp">PATSHELP</a>  | 
-<a href="page.php?p=volunteers">Volunteers</a> 
+<a href="page.php?p=volunteers">Volunteers</a>

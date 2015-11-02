@@ -1,3 +1,4 @@
+<font face="arial">
 <h1>Add Dog</h1>
 <form action="add.php?t=d" method="post">
  <p>Name: <input type="text" name="name" /></p>

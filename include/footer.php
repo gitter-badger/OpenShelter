@@ -1,7 +1,1 @@
-</table><br>
-<table>
-<?php include("nav.php");?>
-<br><br>
-&copy; 2015 <a href="./"><?php echo $sheltername ?></a> | Powered by <a href="http://seanslater.com/OpenShelter">OpenShelter</a>
-</table>
-</html>
+</table><br><?php include("nav.php");?><br><br>&copy; 2015 <a href="./"><?php echo $sheltername ?></a> | Powered by <a href="http://seanslater.com/OpenShelter">OpenShelter</a></html>

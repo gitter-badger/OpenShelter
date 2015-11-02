@@ -2,22 +2,18 @@
 
 ##About
 
-OpenShelter is a PHP/MySQL script created by @SeanSlater initially as an easy way for the Hahndorf Interim Animal Shelter to update their website listing of available cats and dogs.
+OpenShelter is a simple PHP/MySQL website software package designed to suit small to medium sized animal shelters, it gives them the ability to quickly update and manage their own websites in realtime without the complexity of other solutions.
 
-The shelter currently uses Microsoft Frontpage to create their website which is a very manual process. Using a few lines of PHP I hope to automate this process for the shelter.
+The software is written in memory of Sue Whelan, co-founder of the Hahndorf Interim Animal Shelter Inc. Sue spent the last 23 years of her life dedicated to the shelter, helping re-home and board thousands of animals. Sue passed away in 2015. 
 
-This software is written in memory of Sue Whelan, co-founder of the Hahndorf Shelter who gave 23 years of hard work dedicated to the shelter and helping the animals. Sue passed away in 2015. 
-
-You can view a demonstration of the script in action at http://dev.hahndorfshelter.com.au
-
-The shelters current website (generated using Frontpage), http://hahndorfshelter.com.au
+You can see OpenShelter in action generating the Hahndorf Interim Animal Shelter Inc. website, http://hahndorfshelter.com.au
 
 ##Installation
 
 - Create a new database on your webhost (remember to take note of your username, password and database details!)
 - Extract all of the files from the OpenShelter archive and upload them to your webhost using FTP
 - Rename conf-example.php to conf.php
-- Edit conf.php with your database details from the first step
+- Edit conf.php with your database details from the first step, personalise your shelter's name and tagline
 - Secure your /admin directory using your webhosts provided tools
 - Optionally, rename your /admin directory for greater security
 - Open up your browser and go to /install, then follow the prompts
