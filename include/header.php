@@ -2,7 +2,8 @@
 <head><title><?php echo $sheltername ?></title></head>
 <body>
 <center><font face="arial">
-<table width="800"><br><h1><?php echo $sheltername ?></h1><h2><?php echo $sheltertag ?></h2>
+<table width="800"><br>
+<h1><?php echo $sheltername ?></h1><h2><?php echo $sheltertag ?></h2>
 <?php include("nav.php"); ?>
 <br><br></table>
 <table width="800"><td width="300" valign="top">
