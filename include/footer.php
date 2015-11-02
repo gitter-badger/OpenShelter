@@ -2,6 +2,6 @@
 <table>
 <?php include("nav.php");?>
 <br><br>
-&copy; 2015 <a href="./">Handorf Shelter</a> | Powered by <a href="http://seanslater.com/OpenShelter">OpenShelter</a>
+&copy; 2015 <a href="./"><?php echo $sheltername ?></a> | Powered by <a href="http://seanslater.com/OpenShelter">OpenShelter</a>
 </table>
-<html>
+</html>
