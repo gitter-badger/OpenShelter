@@ -9,8 +9,8 @@ echo '<hr><table><tr>';
 	while($row = mysqli_fetch_array($query)) {
 	  if ($counter =="3") { echo '</tr><tr><td colspan="5"><hr></td></tr><tr>'; $counter = 0; }
 	  echo '<td><center><img width="200" src="';
-	  if ($row['photo'] == '') { echo 'http://i.imgur.com/KtuK90i.png'; }
-	  if ($row['photo'] != '') { echo $row['photo']; }
+	  if ($row['photo'] == '') { echo 'images/nophoto.png'; }
+	  if ($row['photo'] != '') { echo 'images/'.$row['photo']; }
 	  echo '"><h1>';
 	  echo $row['name'];
 	  echo '</h1>';

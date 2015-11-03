@@ -6,8 +6,8 @@ $query = mysqli_query($db, $sql);
 echo '<hr><table width="800"><tr>';
 	while($row = mysqli_fetch_array($query)) {
 	  echo '<td><font face="arial"><center><img width="200" src="';
-	  if ($row['photo'] == '') { echo 'http://images.rartoo.com/images/noimageuploaded.png'; }
-	  if ($row['photo'] != '') { echo $row['photo']; }
+	  if ($row['photo'] == '') { echo '../images/nophoto.png'; }
+	  if ($row['photo'] != '') { echo '../images/'.$row['photo']; }
 	  echo '"><h1>';
 	  echo $row['name'];
 	  echo '</h1>';

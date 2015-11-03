@@ -7,8 +7,8 @@ echo '<hr><table width="800"><tr>';
 	while($row = mysqli_fetch_array($query)) {
  	  if ($dogcounter =="3") { echo '</tr><tr><td colspan="5"><hr></td></tr><tr>'; $dogcounter = 0; }
 	  echo '<td><font face="arial"><center><img width="200" src="';
-	  if ($row['photo'] == '') { echo 'http://i.imgur.com/RpzhEsH.png'; }
-	  if ($row['photo'] != '') { echo $row['photo']; }
+	  if ($row['photo'] == '') { echo '../images/nophoto.png'; }
+	  if ($row['photo'] != '') { echo '../images/'.$row['photo']; }
 	  echo '"><h1>';
 	  echo $row['name'];
 	  echo '</h1>';

@@ -14,4 +14,7 @@
  
 // Display link to OpenShelter in footer (1=Yes 0=No)
 	$showopenshelter ='1';
+	
+// Image uploads go in this folder	
+	$target_dir = "images/";
  ?>
