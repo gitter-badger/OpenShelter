@@ -5,12 +5,11 @@
 <?php $sql = "SELECT * FROM pages WHERE pagename='sidebar' LIMIT 1";
 $query = mysqli_query($db, $sql);
 while($row = mysqli_fetch_array($query)) { echo $row['text']; } ?>
-</td><td>&nbsp;</td><td>
+</td><td valign="top" bgcolor="#fff">
 <?php
 $sql = "SELECT * FROM pages WHERE pagename='news' LIMIT 1";
 $query = mysqli_query($db, $sql);
 while($row = mysqli_fetch_array($query)) {
-	  echo "<h1>".$row['title']."</h1>";
 	  echo $row['text'];
 	}
 // $sql = "SELECT * FROM cats WHERE photo!='' ORDER BY RAND() LIMIT 3";
@@ -30,5 +29,5 @@ while($row = mysqli_fetch_array($query)) {
 // 	  echo $row['name'];
 // 	  echo '</h1></center></td>';
 // 	}
-echo "</tr></table>";
+echo "</td></tr></table>";
 include("include/footer.php"); ?>
