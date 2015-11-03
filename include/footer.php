@@ -1,1 +1,9 @@
-</table><br><?php include("nav.php");?><br><br>&copy; 2015 <a href="./"><?php echo $sheltername ?></a> | Powered by <a href="http://seanslater.com/OpenShelter">OpenShelter</a></html>
+<?php
+	echo '</table><br>';
+	include("nav.php");
+	echo '<br><br>';
+?>
+&copy; <?php echo date("Y") ?> <a href="./"><?php	echo $sheltername.'</a>';
+	if ($showopenshelter == '1') { echo ' | Powered by <a href="http://seanslater.com/OpenShelter">OpenShelter</a>'; }
+	echo '</html>';
+?>
