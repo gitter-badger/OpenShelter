@@ -5,7 +5,7 @@
 <?php $sql = "SELECT * FROM pages WHERE pagename='sidebar' LIMIT 1";
 $query = mysqli_query($db, $sql);
 while($row = mysqli_fetch_array($query)) { echo $row['text']; } ?>
-</td><td valign="top" bgcolor="#fff">
+</td><td valign="top" bgcolor="#ffffff">
 <?php
 $sql = "SELECT * FROM pages WHERE pagename='news' LIMIT 1";
 $query = mysqli_query($db, $sql);
