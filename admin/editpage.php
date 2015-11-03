@@ -5,10 +5,7 @@ if(isset($_GET["p"])){ $p = preg_replace('#[^a-z0-9]#i', '', $_GET['p']); } else
 $sql = "SELECT * FROM pages WHERE pagename='".$p."' LIMIT 1";
 $query = mysqli_query($db, $sql);
 while($row = mysqli_fetch_array($query)) { $pagename = $row['pagename']; $pagetitle = $row['title']; $oldtext = $row['text']; }
-echo '<font face="arial"><h1>'.$pagetitle.' ('.$pagename.')</h1>';
-echo '<hr>';
-echo $oldtext;
-echo '<hr><h1>Editing</h1>';
+echo '<font face="arial"><h1>Editing '.$pagetitle.'</h1>';
 ?>
 <form action="savepage.php?p=<?php echo $pagename; ?>" method="post">
  <textarea name="newtext" id="editor1"" rows="30" cols="150">
@@ -17,7 +14,8 @@ echo '<hr><h1>Editing</h1>';
 <br><br>
    <script>
  CKEDITOR.replace( 'editor1', {
-    toolbar: [
+	height: '700',	
+	toolbar: [
     { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold', 'Italic', 'Underline', 'RemoveFormat' ] },
     { name: 'paragraph', groups: [ 'list', 'indent', 'blocks', 'align', 'bidi' ], items: [ 'NumberedList', 'BulletedList', '-', '-', 'Blockquote', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock' ] },
     { name: 'links', items: [ 'Link', 'Unlink' ] },
@@ -32,4 +30,4 @@ echo '<hr><h1>Editing</h1>';
    </script>
 <input type="submit" value="SAVE CHANGES"/>
 </form>
-<hr><br><a href="./">cancel and return to admin home</a>
+<br>or <a href="./">CANCEL and go back</a><br>
