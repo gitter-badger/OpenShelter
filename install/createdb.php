@@ -31,7 +31,7 @@ $table_pages = "CREATE TABLE IF NOT EXISTS pages (
               id INT(11) NOT NULL AUTO_INCREMENT,
 			  pagename VARCHAR(20) NOT NULL,
    			  title VARCHAR(250) NOT NULL,
-  			  text VARCHAR(2500) NOT NULL,
+  			  text VARCHAR(25000) NOT NULL,
               PRIMARY KEY (id),
 			  UNIQUE KEY pagename (pagename,id)
              )";
