@@ -1,5 +1,10 @@
-<?php include_once("../conf.php"); ?>
-<center><table width="800"><font face="arial"><h1>Cats for adoption - <a href="./">go back</a></h1>
+<?php include_once("../conf.php");
+if(isset($_GET["delete"])){	$delete = preg_replace('#[^a-z0-9]#i', '', $_GET['delete']); } else { $delete = '0' ; }
+ ?>
+<center><table width="800">
+<font face="arial">
+<?php if ( $delete == '1') { echo '<h1><font color=green>Cat deleted OK</font></h1>'; }?>
+<h1>Cats for adoption - <a href="./">go back</a></h1>
 <?php $catcounter = 0;
 $sql = "SELECT * FROM cats WHERE id!='0' ORDER BY RAND()";
 $query = mysqli_query($db, $sql);

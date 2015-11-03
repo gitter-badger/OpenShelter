@@ -4,8 +4,6 @@ if(isset($_GET["id"])){	$id = preg_replace('#[^a-z0-9]#i', '', $_GET['id']); } e
 if ($t == "c") { $sql = "DELETE FROM cats WHERE id=$id" ;}
 if ($t == "d") { $sql = "DELETE FROM dogs WHERE id=$id" ;}
 $query = mysqli_query($db, $sql);
-echo '<font face="arial"><center><br><h1>Deleted OK</h1><br><br>';
-if ($t == "c") { echo '<a href="cats.php">back to cat listings</a><br><br>' ;}
-if ($t == "d") { echo '<a href="dogs.php">back to dog listings</a><br><br>' ;}
+if ($t == "c") { header("location: cats.php?delete=1"); ;}
+if ($t == "d") { header("location: dogs.php?delete=1"); ;}
 ?>
-<a href="./">return to admin home</a>
