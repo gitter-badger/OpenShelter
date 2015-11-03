@@ -2,4 +2,6 @@
   
  $sheltername = 'Animal Shelter';
  $sheltertag = 'Giving abandoned cats and dogs a second chance to find loving homes'; 
+ 
+ $showopenshelter ='1';
  ?>
