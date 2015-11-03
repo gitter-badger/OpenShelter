@@ -16,5 +16,5 @@
 	$showopenshelter ='1';
 	
 // Image uploads go in this folder	
-	$target_dir = "images/";
+	$target_dir = "../images/";
  ?>
