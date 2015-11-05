@@ -17,4 +17,7 @@
 	
 // Image uploads go in this folder	
 	$target_dir = "../images/";
+	
+// Google Analytics tracking ID (eg. "UA-62356264-1") 
+	$analyticstrackingcode = "";
  ?>
