@@ -20,7 +20,4 @@
 	
 // Google Analytics tracking ID (eg. "UA-62356264-1") 
 	$analyticstrackingcode = "";
-	
-// Image uploads from TinyMCE - relative to domain name
-	$config['up_path'] = 'images';
  ?>
