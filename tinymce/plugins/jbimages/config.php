@@ -8,4 +8,8 @@
 	$config['allow_resize'] = TRUE;
 	$config['encrypt_name'] = FALSE;
 	$config['overwrite'] = FALSE;
+	
+	
+
+		
 ?>
