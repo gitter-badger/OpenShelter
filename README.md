@@ -1,5 +1,7 @@
 # OpenShelter
 
+[![Join the chat at https://gitter.im/seanslater/OpenShelter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/seanslater/OpenShelter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ##About
 
 OpenShelter is a simple PHP/MySQL website software package designed to suit small to medium sized animal shelters, it gives them the ability to quickly update and manage their own websites in realtime without the complexity of other solutions.
